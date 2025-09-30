@@ -72,6 +72,7 @@ wire CEN;
 
 
 // --- Clock/Reset Generator ---
+
 crg crg_1
 (
 .clk_crc5(clk_crc5),
@@ -82,7 +83,7 @@ crg crg_1
 .clk_frm(clk_frm),
 .clk_fm0(clk_fm0),
 .clk_mil(clk_mil),
-.clk_if(clk_mem),
+.clk_mem(clk_mem),
 .rst_n(rst_n),
 .clk_200K(clk_200K),
 .clk_dpie(clk_dpie),
